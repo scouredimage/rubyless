@@ -1,0 +1,11 @@
+app: scouredimage
+org: demoapp
+service: rubyless
+
+provider:
+  name: aws
+  runtime: ruby2.7
+
+functions:
+  hello:
+    handler: handler.fortune

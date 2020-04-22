@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fortune_gem (0.0.9)
+    power_assert (1.2.0)
+    rake (13.0.1)
+    test-unit (3.3.5)
+      power_assert
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fortune_gem
+  rake
+  test-unit
+
+BUNDLED WITH
+   2.1.2
