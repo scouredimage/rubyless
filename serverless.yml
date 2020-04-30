@@ -9,3 +9,7 @@ provider:
 functions:
   hello:
     handler: handler.fortune
+    events:
+      - http:
+          path: fortune
+          method: get
