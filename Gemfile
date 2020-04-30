@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
 gem 'fortune_gem'
 gem 'rake'
-gem 'test-unit'
+group :test do
+  gem 'test-unit'
+end
